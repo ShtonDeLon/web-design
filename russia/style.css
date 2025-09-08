@@ -59,14 +59,14 @@ a:hover {
     color: white;
 }
 
-ol {
+nav ul {
     margin-top: -7vw;
     font-size: 2vw;
     padding: 0;
     text-align: center;
 }
 
-ol li {
+nav ul li {
     display: inline;
     padding: 3.4vw;
 }
@@ -109,4 +109,15 @@ aside img {
     font-style: italic;
     line-height: 28px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+@counter-style marker-emoji {
+	system: cyclic;
+	symbols: "📍" "🗺️" "🌎" "👐";
+	suffix: "   ";
+}
+
+.markers {
+    padding-left: 1em;
+	list-style-type: marker-emoji;
 }

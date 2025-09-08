@@ -1,0 +1,20 @@
+body {
+    background: black;
+    background-size: 100% auto;
+    color: white;
+}
+
+header {
+    color: white;
+    font-family: Bookman, URW Bookman L, serif;
+    padding-top: 10vh;
+    text-align: center;
+    font-size: 5vh;
+
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.1), 70%, rgba(0, 0, 0, 1)),
+        url(https://avatars.mds.yandex.net/i?id=de78d493e4d0bd4e1724fdd4e598e9d4_l-5233313-images-thumbs&n=13) center -1vw;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    letter-spacing: 2vw;
+}
